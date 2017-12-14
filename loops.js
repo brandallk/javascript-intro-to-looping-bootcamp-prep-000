@@ -1,5 +1,6 @@
 function forLoop(array) {
   var startIndex = array.length;
+  
   for (let i = 0; i < 25; i++) {
     array[startIndex + i] = `I am ${i} strange loop.`;
     if (i !== 1) {
