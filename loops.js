@@ -5,4 +5,6 @@ function forLoop(array) {
       array[i].concat('s');
     }
   }
+  
+  return array;
 }
