@@ -1,8 +1,9 @@
 function forLoop(array) {
+  var startIndex = array.length;
   for (let i = 0; i < 25; i++) {
-    array[i] = `I am ${i} strange loop.`;
+    array[startIndex + i] = `I am ${i} strange loop.`;
     if (i !== 1) {
-      array[i].concat('s');
+      array[startIndex + i].concat('s');
     }
   }
   
